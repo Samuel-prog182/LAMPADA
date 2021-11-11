@@ -5,7 +5,7 @@ public class TesteLampada {
 
         l.ligar();
 
-        if(l.isSituacaoLampada()){
+        if(l.issituacaoLampada()){
             System.out.println("Lampada ligada");
         }
         else{
