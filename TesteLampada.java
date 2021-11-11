@@ -1,11 +1,11 @@
 public class TesteLampada {
     
     public static void main(String[]args){
-        Lampada 1 =new Lampada();
+        Lampada l =new Lampada();
 
-        1.ligar();
+        l.ligar();
 
-        if(1.isSituacaoLampada){
+        if(l.isSituacaoLampada()){
             System.out.println("Lampada ligada");
         }
         else{
