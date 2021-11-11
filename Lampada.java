@@ -16,4 +16,8 @@ public class Lampada{
     public void desligar(){
            situacaoLampada=false;
     }
+
+    public boolean isSituacaoLampada() {
+        return false;
+    }
 }
