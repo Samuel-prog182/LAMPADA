@@ -9,8 +9,8 @@ public class Lampada{
     public void setSituacaoLampada(boolean situacaoLampada) {
         this.situacaoLampada = situacaoLampada;
     }
-
-    public boolean ligar(){
+  
+     public boolean ligar(){
            return situacaoLampada=true;
     }
     public void desligar(){
